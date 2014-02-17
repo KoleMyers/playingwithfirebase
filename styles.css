@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom right, #3F3B82, #03FA97);
+    margin: 0;
+    padding: 0;
+}
+
+#messagesDiv {
+    height:100px;
+    width: 200px;
+    background-color: gray;
+    color:white;
+    float:right;
+    overflow: scroll;
+}
+
+#messages {
+    height: 30px;
+    width 100%;
+    background-color: gray;
+    color: yellow;
+    position:relative;
+    margin: 5px;
+        
+        
+}
+
+.mainContent {
+    width 70%;
+    height: 500px;
+    align-content: center;
+    margin:0, 150px, 10px, 150px;
+    background-color:white;
+    color:black;
+    overflow-y: scroll;
+        
+}
